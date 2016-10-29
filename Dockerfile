@@ -2,6 +2,8 @@ FROM node:4
 
 # Set ENV
 ENV NODE_ENV dev
+ENV npm_config_loglevel=warn
+ENV npm_config_progress=false
 
 # Commands
 RUN \
